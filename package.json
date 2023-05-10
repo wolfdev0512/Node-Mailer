@@ -1,0 +1,25 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "My First Node-Mailer Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfdev0512/Node-Mailer.git"
+  },
+  "author": "Austin Axtell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfdev0512/Node-Mailer/issues"
+  },
+  "homepage": "https://github.com/wolfdev0512/Node-Mailer#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  }
+}
